@@ -1,0 +1,10 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - ant package
+
+artifacts:
+  files:
+    - war/bucketlist.war
